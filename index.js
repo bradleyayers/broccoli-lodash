@@ -13,7 +13,7 @@ LodashRenderer.prototype.constructor = LodashRenderer;
 LodashRenderer.prototype.processFileContent = function(content, relPath, srcDir) {
   return [
     {
-      path: popExtension(path.join(srcDir, relPath)),
+      path: popExtension(relPath),
       content: _.template(content)(this.options.context)
     }
   ];
