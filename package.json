@@ -1,0 +1,28 @@
+{
+  "name": "broccoli-lodash",
+  "description": "Broccoli plugin to Render lodash templates",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bradley Ayers",
+    "email": "bradley.ayers@gmail.com"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradleyayers/broccoli-lodash"
+  },
+  "keywords": [
+    "broccoli-plugin",
+    "lodash"
+  ],
+  "dependencies": {
+    "broccoli-glob-filter": "^0.1.2",
+    "lodash": "^2.4.1"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/bradleyayers/broccoli-lodash/issues"
+  },
+  "homepage": "https://github.com/bradleyayers/broccoli-lodash"
+}
